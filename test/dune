@@ -1,0 +1,5 @@
+(test
+ (name sana)
+ (libraries core sexplib)
+ (preprocess
+  (pps ppx_inline_test ppx_sexp_conv)))
