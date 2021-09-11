@@ -3,4 +3,4 @@
  (name sana)
  (libraries base core sexplib)
  (preprocess
-  (pps ppx_inline_test ppx_sexp_conv ppx_deriving.show)))
+  (pps ppx_inline_test ppx_sexp_conv ppx_deriving.show ppx_let)))
